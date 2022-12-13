@@ -1,0 +1,58 @@
+.card {
+  max-width: 270px;
+  min-height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.card:not(:last-child)  {
+  margin-right: 1.5rem;
+}
+.img-card  {
+  max-width: 100%;
+  max-height: 132px;
+  border-radius: 10px;
+  margin-bottom: .8rem;
+}
+.content-card  {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1;
+}
+.title-card  {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #1976d2;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.title-card span  {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1976d2;
+}
+.direction-campus-card  {
+  font-size: 1rem;
+  text-align: justify;
+}
+/* .button-card  {
+  display: block;
+  background-color: #0303b5;
+  color: #fff;
+  width: 100%;
+  padding: .5rem 0;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+} */
+.button-card:hover  {
+  background-color: #4040fb;
+  transition: ease-in .3s;
+}
